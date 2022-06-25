@@ -11,7 +11,7 @@ function sumInput(){
         inputs.push(+value);
     }
 
-    let sorted = inputs.sort();
+    let sorted = inputs.sort((a,b) => a - b);
 
     let sum = 0;
     for (let input of inputs){
